@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link href="style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="class.css" />
+  </head>
+  <body>
+    <div class="box flex">
+      <div class="leftside bg-black">
+        <div class="home rounded m-1 p-1 bg-grey">
+          <ul>
+            <li><img class="invert" src="logo.svg" alt="logo" /> Spotify</li>
+            <li><img class="invert" src="home.svg" alt="Home" /> Home</li>
+            <li><img class="invert" src="search.svg" alt="Search" /> Search</li>
+          </ul>
+        </div>
+        <div class="library rounded m-1 bg-grey">
+          <div class="firstbox flex">
+            <img class="invert" src="playlist.svg" alt="library" />
+            <h2>Your Library</h2>
+          </div>
+          <div class="middlebox bg-grey">
+            <ul>
+              <li>
+                <span>SONGS</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="rightside m-1 bg-grey">
+        <div class="header">
+          <div class="nav">
+            <img class="invert" src="leftarrow.svg" alt="" />
+            <img class="invert" src="rightarrow.svg" alt="" />
+          </div>
+          <div class="btns">
+            <button type="button" class="signupbtn">Sign up</button>
+            <button type="button" class="loginbtn">Log in</button>
+          </div>
+        </div>
+        <div class="spotifyPlaylists">
+          <h1>Spotify Playlists</h1>
+          <div class="cardContainer">
+            <div class="card">
+              <img src="sleep.jpeg" alt="" />
+              <h2>Sleep</h2>
+              <div class="play">
+                <div class="playbtn">
+                  <img src="play.svg" alt="" />
+                </div>
+              </div>
+              <p>Gentle Ambient piano to help you fall asleep</p>
+            </div>
+            <div class="card">
+              <img src="cover (11).jpg" alt="" />
+              <h2>lofi sleep</h2>
+              <div class="play">
+                <div class="playbtn">
+                  <img src="play.svg" alt="" />
+                </div>
+              </div>
+              <p>Instrumental beats for a restful night's sleep.</p>
+            </div>
+            <div class="card">
+              <img src="rain.jpeg" alt="" />
+              <h2>Night Rain</h2>
+              <div class="play">
+                <div class="playbtn">
+                  <img src="play.svg" alt="" />
+                </div>
+              </div>
+              <p>Sleep with sounds of pouring rain and...</p>
+            </div>
+
+            <div class="spotifyplaylists">
+              <h1>Bollywood Hits</h1>
+              <div class="cardContainer">
+                <div class="card">
+                  <img src="animal.jpeg" alt="" />
+                  <h2>ANIMAL</h2>
+                  <div class="play">
+                    <div class="playbtn">
+                      <img src="play.svg" alt="" />
+                    </div>
+                  </div>
+                  <p>Manan Bhardwaj, Vishal Mishra, Jaani</p>
+                </div>
+                <div class="card">
+                  <img src="rockstar.jpeg" alt="" />
+                  <h2>Rockstar</h2>
+                  <div class="play">
+                    <div class="playbtn">
+                      <img src="play.svg" alt="" />
+                    </div>
+                  </div>
+                  <p>2011. A.R.Rehman,Irshad Kamil</p>
+                </div>
+
+                <div class="card">
+                  <img src="siddhu.jpeg" alt="" />
+                  <h2>Still Rollin</h2>
+                  <div class="play">
+                    <div class="playbtn">
+                      <img src="play.svg" alt="" />
+                    </div>
+                  </div>
+                  <p>Shubh</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="playbar">
+            <div class="seekbar">
+              <div class="circle"></div>
+            </div>
+            <div class="abovebar">
+              <div class="songinfo"></div>
+              <div class="songbuttons">
+                <img id="previous" src="prevsong.svg" alt="" />
+                <img id="play" src="playbtn.svg" alt="" />
+                <img id="next" src="nextsong.svg" alt="" />
+              </div>
+              <div class="songtime"></div>
+              <div class="volume">
+                <img src="volume.svg" alt="" />
+                <div class="range">
+                  <input title="volume" type="range" name="volume" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="bottom">
+      <h4>Preview of Spotify</h4>
+      <br />
+      <span>
+        Sign up to get unlimited songs and prodcasts with occasional. No credit
+        card needed.</span
+      >
+      <button type="button" class="btn">Sign up free</button>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
